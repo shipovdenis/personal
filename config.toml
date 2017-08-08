@@ -1,0 +1,50 @@
+title = "Денис Шипов, Python Developer"
+baseURL = "http://shipovdenis.com"
+tags = ["portfolio", "web design", "blog"]
+languageCode = "ru-RU"
+config = "config.toml"
+theme = "osprey"
+canonifyURLS = true
+googleAnalytics = ""
+disqusShortname = "tomanistor"
+disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
+publishDir = "docs"
+
+[Params]
+    tagline = ""
+    author = "Денис Шипов"
+    description = "Full-stack web developer and UI/UX enthusiast based in San Diego, CA."
+    logoBig = "/images/shipovdenis_logo.png"
+    logoSmall = ""
+    favicon = "favicon.ico"
+    opengraphImage = "/images/osprey.png"
+    vkontakte = "shipovdenis"
+    twitter = "shipovdenis"
+    linkedin = ""
+    github = "shipovdenis"
+    email = ""
+    googleTagManager = ""
+    highlightJS = true
+    copyright = false
+    credit = false
+    customCSS = true
+    cacheBustCSS = false
+    cacheBustJS = false
+    ajaxFormspree = true
+
+# [[menu.main]]
+#     name = "Обо мне"
+#     url  = "/#about"
+#     weight = 1
+# [[menu.main]]
+#     name = "Резюме"
+#     url  = "/#resume"
+#     weight = 2
+# [[menu.main]]
+#     name = "Блог"
+#     url  = "/#blog"
+#     weight = 3
+# [[menu.main]]
+#     name = "Контакты"
+#     url  = "/#contact"
+#     weight = 2
