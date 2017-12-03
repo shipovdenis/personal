@@ -6,14 +6,14 @@ config = "config.toml"
 theme = "osprey"
 canonifyURLS = true
 googleAnalytics = ""
-disqusShortname = "tomanistor"
+disqusShortname = "shipovdenis"
 disableKinds = ["taxonomy", "taxonomyTerm"] # This theme does not currently use "tag" and "category" taxonomies
 publishDir = "docs"
 
 [Params]
     tagline = ""
     author = "Денис Шипов"
-    description = "Full-stack web developer and UI/UX enthusiast based in San Diego, CA."
+    description = "Senior Python Developer"
     logoBig = "/images/shipovdenis_logo.png"
     logoSmall = ""
     favicon = "favicon.ico"
